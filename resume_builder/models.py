@@ -9,7 +9,7 @@ class Candi_Personal(models.Model):
     Cid = models.AutoField(primary_key=True)
     Cname = models.CharField(max_length=240, null=True)
     Cemail = models.CharField(max_length=240, null=True)
-    Cphone = models.CharField(max_length = 20,unique=True, null=True)
+    #Cphone = models.CharField(max_length = 20, null=True)
     #Cdesignation= models.CharField()
 class Skills(models.Model):
     skill_of_cand= models.TextField(null=True)

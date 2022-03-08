@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'resume_parser.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'DJANGO_MSSQL',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'DESKTOP-J94IQ29',
+        'NAME': 'jobPortal',
+        'USER': 'igenztechdb',
+        'PASSWORD': 'igenztech@123',
+        'HOST': 'careerzopt.database.windows.net',
         'PORT': '1433',
 
         'OPTIONS': {
@@ -101,7 +101,20 @@ DATABASES = {
     },
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': 'DJANGO_MSSQL',
+#         'USER': '',
+#         'PASSWORD': '',
+#         'HOST': 'DESKTOP-J94IQ29',
+#         'PORT': '1433',
 
+#         'OPTIONS': {
+#             'driver': 'ODBC Driver 17 for SQL Server',
+#         },
+#     },
+# }
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
