@@ -10,8 +10,8 @@ click==7.1.2
 colorama==0.4.4
 cryptography==3.4.8
 cymem==2.0.5
-Django==3.2.7
-django-cors-headers==3.8.0
+Django
+django-cors-headers
 django-mssql-backend==2.8.1
 django-pyodbc-azure==2.1.0.0
 django-pyodbc-azure-2019==2.1.0.0
@@ -69,3 +69,4 @@ typing-extensions==3.10.0.2
 urllib3==1.26.6
 Wand==0.6.7
 wasabi==0.8.2
+whitenoise
